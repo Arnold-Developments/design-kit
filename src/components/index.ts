@@ -7,3 +7,4 @@ export { Card } from "./Card/Card";
 export { Input } from "./Input/Input";
 export { Badge } from "./Badge/Badge";
 export { Avatar } from "./Avatar/Avatar";
+export { Modal, ModalHeader, ModalBody, ModalFooter, ModalCloseButton } from "./Modal/Modal";
