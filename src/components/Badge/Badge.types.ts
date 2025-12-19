@@ -6,4 +6,5 @@ export interface BadgeProps {
   variant?: BadgeVariant;
   size?: BadgeSize;
   style?: React.CSSProperties;
+  className?: string;
 }

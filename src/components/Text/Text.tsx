@@ -7,6 +7,7 @@ export function Text({
   size = "md",
   weight = "regular",
   muted = false,
+  style,
   children,
 }: TextProps) {
   return (
@@ -17,6 +18,7 @@ export function Text({
         styles[`weight-${weight}`],
         muted && styles.muted,
       ].filter(Boolean).join(" ")}
+      style={style}
     >
       {children}
     </Component>

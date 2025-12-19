@@ -6,4 +6,5 @@ export interface CardProps {
   rounded?: "sm" | "md" | "lg" | "xl" | "full";
   hover?: boolean;
   clickable?: boolean;
+  onClick?: () => void;
 }

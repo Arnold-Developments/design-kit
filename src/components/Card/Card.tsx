@@ -10,6 +10,7 @@ export function Card({
   hover = true,
   clickable = false,
   style,
+  onClick,
 }: CardProps) {
   const className = [
     styles.card,
@@ -20,5 +21,5 @@ export function Card({
     clickable && styles.clickable,
   ].filter(Boolean).join(" ");
 
-  return <div className={className} style={style}>{children}</div>;
+  return <div className={className} style={style} onClick={onClick}>{children}</div>;
 }
