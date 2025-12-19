@@ -6,12 +6,18 @@ export function Card({
   children,
   variant = "default",
   padding = "md",
+  rounded = "lg",
+  hover = true,
+  clickable = false,
   style,
 }: CardProps) {
   const className = [
     styles.card,
     styles[`variant-${variant}`],
     styles[`padding-${padding}`],
+    styles[`rounded-${rounded}`],
+    hover && styles.hover,
+    clickable && styles.clickable,
   ].filter(Boolean).join(" ");
 
   return <div className={className} style={style}>{children}</div>;

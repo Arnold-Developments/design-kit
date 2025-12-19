@@ -1,20 +1,57 @@
 .card {
-  border-radius: 1rem;
   width: 100%;
-  transition: all 0.2s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
+  overflow: hidden;
 }
 
+/* Rounded variants */
+.rounded-sm {
+  border-radius: 0.25rem;
+}
+
+.rounded-md {
+  border-radius: 0.5rem;
+}
+
+.rounded-lg {
+  border-radius: 0.75rem;
+}
+
+.rounded-xl {
+  border-radius: 1rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+/* Hover effects */
+.hover:hover {
+  transform: translateY(-2px);
+}
+
+/* Clickable cursor */
+.clickable {
+  cursor: pointer;
+}
+
+.clickable:active {
+  transform: scale(0.98);
+}
+
+/* Default variant */
 .variant-default {
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
 }
 
 .variant-default:hover {
-  border-color: var(--color-border-subtle);
-  transform: translateY(-1px);
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
+/* Elevated variant */
 .variant-elevated {
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
@@ -23,20 +60,45 @@
 
 .variant-elevated:hover {
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  transform: translateY(-2px);
 }
 
+/* Outlined variant */
 .variant-outlined {
   background-color: var(--color-surface);
   border: 2px solid var(--color-primary);
-  position: relative;
 }
 
 .variant-outlined:hover {
   border-color: var(--color-accent);
-  transform: translateY(-1px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
+/* Glass variant */
+.variant-glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.variant-glass:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Gradient variant */
+.variant-gradient {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+  border: 1px solid transparent;
+  color: white;
+}
+
+.variant-gradient:hover {
+  background: linear-gradient(135deg, var(--color-accent), var(--color-primary));
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Padding variants */
 .padding-sm {
   padding: var(--space-sm);
 }
