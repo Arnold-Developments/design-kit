@@ -1,0 +1,29 @@
+.h1 {
+    font-size: var(--font-size-2xl);
+}
+
+.h2 {
+    font-size: var(--font-size-xl);
+}
+
+.h3 {
+    font-size: var(--font-size-lg);
+}
+
+.h4 {
+    font-size: var(--font-size-md);
+}
+
+.h5 {
+    font-size: var(--font-size-sm);
+}
+
+.h6 {
+    font-size: var(--font-size-xs);
+}
+
+.heading {
+    margin: 0;
+    font-weight: 600;
+    line-height: var(--line-height-tight);
+}
