@@ -1,0 +1,25 @@
+{
+  "name": "design-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arnold-Developments/design-kit.git"
+  },
+  "keywords": [],
+  "author": "Preston Arnold (prestonarnold.uk) <Arnold Development>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arnold-Developments/design-kit/issues"
+  },
+  "homepage": "https://github.com/Arnold-Developments/design-kit#readme",
+  "dependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.3"
+  }
+}
