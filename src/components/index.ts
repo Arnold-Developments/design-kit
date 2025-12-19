@@ -3,3 +3,7 @@ export { Text } from "./Text/Text";
 export { Button } from "./Button/Button";
 export { Stack } from "./Stack/Stack";
 export { Inline } from "./Inline/Inline";
+export { Card } from "./Card/Card";
+export { Input } from "./Input/Input";
+export { Badge } from "./Badge/Badge";
+export { Avatar } from "./Avatar/Avatar";

@@ -87,3 +87,19 @@
 .button--danger:active:not(:disabled) {
   opacity: 0.75;
 }
+
+/* Sizes */
+.size-sm {
+  padding: 0.375rem 0.75rem;
+  font-size: 0.75rem;
+}
+
+.size-md {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.size-lg {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}

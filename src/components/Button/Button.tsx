@@ -4,6 +4,7 @@ import type { ButtonProps } from "./Button.types";
 
 export function Button({
   variant = "primary",
+  size = "md",
   children,
   onClick,
   disabled = false,
@@ -12,6 +13,7 @@ export function Button({
   const className = [
     styles.button,
     styles[`button--${variant}`],
+    styles[`size-${size}`],
   ].filter(Boolean).join(" ");
 
   return (

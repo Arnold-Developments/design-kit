@@ -9,6 +9,9 @@
   --color-primary: #60a5fa;
   --color-accent: #a855f7;
   --color-danger: #f97373;
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-error: #f97373;
   --color-text: #e5e7eb;
   --color-text-muted: #9ca3af;
 }
@@ -23,6 +26,9 @@
   --color-primary: #60a5fa;
   --color-accent: #a855f7;
   --color-danger: #f97373;
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-error: #f97373;
   --color-text: #e5e7eb;
   --color-text-muted: #9ca3af;
 }
@@ -37,6 +43,9 @@
   --color-primary: #1e40af;
   --color-accent: #7c3aed;
   --color-danger: #b91c1c;
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-error: #b91c1c;
   --color-text: #0f0f0f;
   --color-text-muted: #6b7280;
 }
