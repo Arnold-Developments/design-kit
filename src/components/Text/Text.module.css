@@ -32,10 +32,6 @@
     font-weight: 600;
 }
 
-.weight-600 {
-    font-weight: 600;
-}
-
 .muted {
     color: var(--color-text-muted);
 }

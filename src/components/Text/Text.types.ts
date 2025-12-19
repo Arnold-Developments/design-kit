@@ -1,5 +1,5 @@
 export type TextSize = "xs" | "sm" | "md" | "lg" | "xl";
-export type TextWeight = "regular" | "medium" | "semibold" | "600";
+export type TextWeight = "regular" | "medium" | "semibold";
 
 export interface TextProps {
     as?: "p" | "span" | "label" | "div";
