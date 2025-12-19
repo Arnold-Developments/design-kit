@@ -2,4 +2,6 @@ body {
     font-family: var(--font-family-base);
     font-size: var(--font-size-md);
     line-height: var(--line-height-normal);
+    background-color: var(--color-bg);
+    color: var(--color-text);
 }
