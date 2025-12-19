@@ -10,6 +10,10 @@ export const fontSize = {
   lg: "1.25rem",
   xl: "1.5rem",
   "2xl": "2rem",
+  "3xl": "2.5rem",
+  "4xl": "3rem",
+  "5xl": "3.75rem",
+  "6xl": "4.5rem",
 };
 
 export const lineHeight = {
@@ -22,4 +26,5 @@ export const fontWeight = {
   regular: 400,
   medium: 500,
   semibold: 600,
+  bold: 700,
 };
